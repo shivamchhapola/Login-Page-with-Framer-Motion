@@ -34,7 +34,7 @@ const InputVariants = {
   },
   close: {
     opacity: 0,
-    width: '65%',
+    width: '70%',
     transition: {
       duration: 0.5,
     },

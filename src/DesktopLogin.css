@@ -7,16 +7,23 @@
 @media only screen and (min-width: 601px) {
   .Desktop {
     display: flex;
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .Desktop {
+    width: 60%;
   }
 }
 
 .Desktop {
-  width: 60%;
   height: 50%;
   background-color: white;
   border-radius: 1rem;
   flex-direction: row;
   overflow: hidden;
+  box-shadow: 1rem 1rem 2rem black;
 }
 
 .Container {
@@ -46,6 +53,7 @@
 
 .inputF:focus {
   outline: 0.15rem solid #2d3748;
+  box-shadow: 0rem 0rem 0.2rem black;
 }
 
 .inputF::placeholder {
@@ -61,16 +69,27 @@
   width: 100%;
 }
 
+.forgotPass:hover {
+  text-decoration: underline;
+}
+
 .buttonF {
   border-radius: 3rem;
   color: #e2e8f0;
   margin: 1rem;
   padding: 0.5rem;
   width: 100%;
+  white-space: nowrap;
+}
+
+.buttonF:hover {
+  box-shadow: 0rem 0rem 0.15rem black;
 }
 
 .googleB {
   background-color: #63b3ed;
+  position: relative;
+  top: 1rem;
 }
 
 .CloseTitle {

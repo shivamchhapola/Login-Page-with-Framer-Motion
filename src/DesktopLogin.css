@@ -7,11 +7,11 @@
 @media only screen and (min-width: 601px) {
   .Desktop {
     display: flex;
-    width: 80%;
+    width: 70%;
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 750px) {
   .Desktop {
     width: 60%;
   }
@@ -43,7 +43,7 @@
   align-items: center;
 }
 
-.inputF {
+.InputField {
   background-color: #a0aec0;
   border-radius: 0.3rem;
   padding: 0.5rem;
@@ -51,16 +51,16 @@
   color: #e2e8f0;
 }
 
-.inputF:focus {
+.InputField:focus {
   outline: 0.15rem solid #2d3748;
   box-shadow: 0rem 0rem 0.2rem black;
 }
 
-.inputF::placeholder {
+.InputField::placeholder {
   color: #e2e8f0;
 }
 
-.forgotPass {
+.ForgotPass {
   font-size: x-small;
   text-align: right;
   color: #2d3748;
@@ -69,11 +69,11 @@
   width: 100%;
 }
 
-.forgotPass:hover {
+.ForgotPass:hover {
   text-decoration: underline;
 }
 
-.buttonF {
+.BtnField {
   border-radius: 3rem;
   color: #e2e8f0;
   margin: 1rem;
@@ -82,11 +82,11 @@
   white-space: nowrap;
 }
 
-.buttonF:hover {
+.BtnField:hover {
   box-shadow: 0rem 0rem 0.15rem black;
 }
 
-.googleB {
+.GoogleBtn {
   background-color: #63b3ed;
   position: relative;
   top: 1rem;
@@ -96,4 +96,5 @@
   color: #e2e8f0;
   text-align: center;
   display: table;
+  white-space: nowrap;
 }

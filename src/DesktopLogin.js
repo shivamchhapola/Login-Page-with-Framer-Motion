@@ -91,7 +91,7 @@ export default function DesktopLogin() {
           </motion.div>
           <motion.button
             onClick={() => setIsLogin(true)}
-            className="buttonF"
+            className="BtnField"
             variants={ButtonVariants}>
             Login
           </motion.button>
@@ -115,7 +115,7 @@ export default function DesktopLogin() {
           </motion.div>
           <motion.button
             onClick={() => setIsLogin(false)}
-            className="buttonF"
+            className="BtnField"
             variants={ButtonVariants}>
             SignUp
           </motion.button>

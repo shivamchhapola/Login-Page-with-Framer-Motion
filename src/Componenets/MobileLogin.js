@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import LoginElements from './LoginElements';
 import SignUpElements from './SignUpElements';
-import './MobileLogin.css';
+import './../CSS/MobileLogin.css';
 
 const LoginButtonVar = {
   open: {

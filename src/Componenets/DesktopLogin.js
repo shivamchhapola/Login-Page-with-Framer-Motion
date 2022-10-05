@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import LoginElements from './LoginElements';
 import SignUpElements from './SignUpElements';
-import './DesktopLogin.css';
+import './../CSS/DesktopLogin.css'
 
 const ConVariants = {
   open: {

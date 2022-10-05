@@ -43,55 +43,6 @@
   align-items: center;
 }
 
-.InputField {
-  background-color: #a0aec0;
-  border-radius: 0.3rem;
-  padding: 0.5rem;
-  width: 100%;
-  color: #e2e8f0;
-}
-
-.InputField:focus {
-  outline: 0.15rem solid #2d3748;
-  box-shadow: 0rem 0rem 0.2rem black;
-}
-
-.InputField::placeholder {
-  color: #e2e8f0;
-}
-
-.ForgotPass {
-  font-size: x-small;
-  text-align: right;
-  color: #2d3748;
-  background-color: transparent;
-  margin-left: 0.5rem;
-  width: 100%;
-}
-
-.ForgotPass:hover {
-  text-decoration: underline;
-}
-
-.BtnField {
-  border-radius: 3rem;
-  color: #e2e8f0;
-  margin: 1rem;
-  padding: 0.5rem;
-  width: 100%;
-  white-space: nowrap;
-}
-
-.BtnField:hover {
-  box-shadow: 0rem 0rem 0.15rem black;
-}
-
-.GoogleBtn {
-  background-color: #63b3ed;
-  position: relative;
-  top: 1rem;
-}
-
 .CloseTitle {
   color: #e2e8f0;
   text-align: center;

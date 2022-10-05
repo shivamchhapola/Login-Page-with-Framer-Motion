@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import MobileLogin from './MobileLogin';
-import DesktopLogin from './DesktopLogin';
 import { AnimatePresence, motion } from 'framer-motion';
-import './App.css';
 import WebFont from 'webfontloader';
+import DesktopLogin from './DesktopLogin';
+import MobileLogin from './MobileLogin';
+import './../CSS/App.css'
 
 function App() {
   useEffect(() => {

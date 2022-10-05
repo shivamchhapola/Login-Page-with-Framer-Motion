@@ -1,5 +1,6 @@
 import React from 'react';
 import { FcGoogle } from 'react-icons/fc';
+import './../CSS/Elements.css';
 
 export default function LoginElements({ className }) {
   return (
